@@ -5,7 +5,7 @@ run : build
 build : 
 	@ echo "Buiding.."
 	@ mkdir -p exe
-	@ gcc 2018CS10389_sh.c -o ./exe/2018CS10389_sh
+	@ gcc shell.c -o ./exe/shell
 	@ gcc main.c -o ./exe/main
 clean : 
 	@ echo "Cleaning.."
