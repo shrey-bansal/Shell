@@ -14,7 +14,7 @@ int main()
     pid_t child_pid,tpid;
   	int child_status;
  	child_pid = fork(); 
- 	char* parsed[] = {"exe/2018CS10389_sh",NULL};
+ 	char* parsed[] = {"exe/shell",NULL};
   	if (child_pid == 0) { 
       	execv(parsed[0],parsed);
         printf("Unknown command..\n"); 
